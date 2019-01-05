@@ -1,5 +1,5 @@
 html, body, div, p {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -8,12 +8,12 @@ div.title {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 180px;
     background-color: gray;
 }
 
-img {
-    height: 160px;
+img.logo {
+    height: 140px;
 }
 
 nav {
@@ -24,7 +24,7 @@ nav {
     position: sticky;
     position: -webkit-sticky; /* Safari */
     top: 0;
-    background-color: #ff8503;
+    background-color: whitesmoke;
 }
 
 ul {
@@ -50,9 +50,9 @@ li a {
     width: auto;
 }
   
-  /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: blue;
+    background-color: black;
     color: white;
+    border-radius: 10px;
 }
 

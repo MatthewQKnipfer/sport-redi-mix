@@ -2,17 +2,32 @@ div {
     border: 1px solid black;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 div.about {
     background-color: lightgray;
     width: 100%;
+    height: 50px;
     display: flex;
     justify-content: center;
-    align-items: centers;
+    align-items: center;
     padding: 10px;
 }
 
 p {
     display: flex;
     width: 700px;
-    height: 3000px;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
