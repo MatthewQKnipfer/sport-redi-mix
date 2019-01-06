@@ -1,5 +1,5 @@
 html, body, div, p {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -45,7 +45,8 @@ li a {
     font-weight: bold;
     color: black;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 0px;
+    margin: 0px;
     text-decoration: none;
     width: auto;
 }
@@ -53,6 +54,5 @@ li a {
 li a:hover {
     background-color: black;
     color: white;
-    border-radius: 10px;
 }
 
