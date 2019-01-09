@@ -1,5 +1,5 @@
 html, body, div, p {
-    font-family: 'Lato', sans-serif;
+    font-family: monospace, sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -26,6 +26,7 @@ nav {
     position: -webkit-sticky; /* Safari */
     top: 0;
     background-color: whitesmoke;
+    box-shadow: 4px 4px whitesmoke;
 }
 
 ul {
@@ -33,7 +34,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95%;
+    width: 100%;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -50,7 +51,6 @@ li a {
     padding: 17px 10px;
     margin: 0px;
     text-decoration: none;
-    width: 200px;
     height: 100%;
 }
   
