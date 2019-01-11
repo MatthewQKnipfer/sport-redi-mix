@@ -17,6 +17,10 @@ div.about {
     align-items: center;
 }
 
+h1 {
+    font-size: 30pt;
+}
+
 div.words {
     display: flex;
     flex-direction: column;

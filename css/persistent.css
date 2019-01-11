@@ -52,6 +52,7 @@ li a {
     margin: 0px;
     text-decoration: none;
     height: 100%;
+    font-size: 12pt;
 }
   
 li a:hover {
