@@ -23,7 +23,7 @@ h1 {
 
 div.words {
     display: flex;
-    flex-direction: column;
+    flex-direction: horizontal;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -31,17 +31,14 @@ div.words {
 }
 
 p {
-    display: flex;
-    width: 350px;
-    padding-bottom: 20px;
+    width: 200px;
+    padding: 20px;
 }
 
 p.1, p.3, p.5 {
-
 }
 
 p.2, p.4{
-
 }
 
 .main {
