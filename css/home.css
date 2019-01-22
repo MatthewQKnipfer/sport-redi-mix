@@ -21,12 +21,12 @@ h1 {
     font-size: 30pt;
 }
 
-div.words {
+div.columns {
     display: flex;
     flex-direction: horizontal;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 400px;
     margin: 20px;
 }
 
