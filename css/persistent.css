@@ -10,7 +10,7 @@ div.title {
     padding-top: 10px;
     justify-content: center;
     height: 200px;
-    background-color: darkgray;
+    background-color: lightsalmon;
 }
 
 img.logo {
@@ -26,7 +26,7 @@ nav {
     position: sticky;
     position: -webkit-sticky; /* Safari */
     top: 0;
-    background-color: whitesmoke;
+    background-color: navy;
     box-shadow: 4px 4px whitesmoke;
 }
 
@@ -47,7 +47,7 @@ li {
   
 li a {
     font-weight: bold;
-    color: black;
+    color: grey;
     text-align: center;
     padding: 17px 10px;
     margin: 0px;
@@ -57,7 +57,7 @@ li a {
 }
   
 li a:hover {
-    background-color: black;
+    background-color: grey;
     color: white;
     overflow: hidden;
 }
