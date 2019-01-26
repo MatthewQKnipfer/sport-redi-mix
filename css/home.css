@@ -26,11 +26,11 @@ div.columns {
     flex-direction: horizontal;
     justify-content: center;
     align-items: center;
-    width: 480px;
+    width: 860px;
 }
 
 p {
-    width: 200px;
+    width: 350px;
     padding: 40px;
 }
 
