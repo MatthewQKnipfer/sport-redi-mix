@@ -27,7 +27,6 @@ nav {
     position: -webkit-sticky; /* Safari */
     top: 0;
     background-color: navy;
-    box-shadow: 4px 4px whitesmoke;
 }
 
 ul {
@@ -47,7 +46,7 @@ li {
   
 li a {
     font-weight: bold;
-    color: grey;
+    color: white;
     text-align: center;
     padding: 17px 10px;
     margin: 0px;
@@ -58,7 +57,7 @@ li a {
   
 li a:hover {
     background-color: grey;
-    color: white;
+    color: lightsalmon;
     overflow: hidden;
 }
 
