@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.aspnetcoreapp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml">
     <Files>
-      <File FileName="Pages/Index.cshtml" Line="13" Column="196" />
+      <File FileName="Pages/Contact.html" Line="31" Column="1" />
+      <File FileName="Pages/Index.cshtml" Line="20" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,20 +14,12 @@
                 <Node name="Shared" expanded="True" />
                 <Node name="Index.cshtml" selected="True" />
               </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="js" expanded="True" />
-                <Node name="lib" expanded="True">
-                  <Node name="bootstrap" expanded="True" />
-                  <Node name="jquery" expanded="True" />
-                  <Node name="jquery-validation" expanded="True" />
-                  <Node name="jquery-validation-unobtrusive" expanded="True" />
-                </Node>
-              </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
