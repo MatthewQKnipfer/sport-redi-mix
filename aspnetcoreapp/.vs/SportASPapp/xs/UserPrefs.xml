@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml">
     <Files>
       <File FileName="Pages/Contact.html" Line="31" Column="1" />
-      <File FileName="Pages/Index.cshtml" Line="20" Column="1" />
+      <File FileName="Pages/Index.cshtml" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,9 +17,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
