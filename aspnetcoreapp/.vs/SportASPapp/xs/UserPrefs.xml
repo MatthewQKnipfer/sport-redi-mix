@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{F9CA1CD5-5674-4979-B561-E7B8A4EFCA81}|Default">
   <MonoDevelop.Ide.ItemProperties.aspnetcoreapp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Contact.cshtml">
     <Files>
-      <File FileName="Pages/Contact.html" Line="31" Column="1" />
+      <File FileName="Pages/Contact.cshtml" Line="31" Column="1" />
       <File FileName="Pages/Index.cshtml" Line="22" Column="1" />
+      <File FileName="Pages/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/Error.cshtml.cs" Line="24" Column="1" />
+      <File FileName="Pages/Contact.cshtml.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +15,7 @@
             <Node name="aspnetcoreapp" expanded="True">
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
-                <Node name="Index.cshtml" selected="True" />
+                <Node name="Contact.cshtml" selected="True" />
               </Node>
             </Node>
           </Node>
