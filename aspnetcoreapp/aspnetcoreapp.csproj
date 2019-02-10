@@ -13,6 +13,9 @@
     <None Remove="Pages\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Remove="Pages\Contact.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Pages\Contact.cshtml" />
   </ItemGroup>
 </Project>

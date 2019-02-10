@@ -309,3 +309,4 @@
 /Users/matthewknipfer/Desktop/GitHub/sport-redi-mix/aspnetcoreapp/obj/Debug/netcoreapp3.0/aspnetcoreapp.csproj.CopyComplete
 /Users/matthewknipfer/Desktop/GitHub/sport-redi-mix/aspnetcoreapp/obj/Debug/netcoreapp3.0/aspnetcoreapp.dll
 /Users/matthewknipfer/Desktop/GitHub/sport-redi-mix/aspnetcoreapp/obj/Debug/netcoreapp3.0/aspnetcoreapp.pdb
+/Users/matthewknipfer/Desktop/GitHub/sport-redi-mix/aspnetcoreapp/obj/Debug/netcoreapp3.0/Razor/Pages/Contact.cshtml.g.cs

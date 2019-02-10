@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v3.0",
-    "signature": "7ed03f1baca239f19bacbc530996ffccbe5440ca"
+    "signature": "b525c18314990195c9ba70b93cab2a940e30c1cf"
   },
   "compilationOptions": {
     "defines": [
@@ -24,8 +24,11 @@
     ".NETCoreApp,Version=v3.0": {
       "aspnetcoreapp/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.App": "3.0.0-preview-19075-0444",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.0.0-preview-19075-0444",
+          "Microsoft.NETCore.App": "3.0.0-preview-27324-5",
           "Microsoft.NETCore.Platforms": "3.0.0-preview.19073.11",
+          "runtime.osx-x64.Microsoft.NETCore.DotNetAppHost": "3.0.0-preview-27324-5",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -311,6 +314,7 @@
           "aspnetcoreapp.dll": {}
         }
       },
+      "Microsoft.AspNetCore.App/3.0.0-preview-19075-0444": {},
       "Microsoft.AspNetCore.JsonPatch/3.0.0-preview-19075-0444": {
         "dependencies": {
           "Microsoft.CSharp": "4.6.0-preview.19073.11",
@@ -343,7 +347,6 @@
         }
       },
       "Microsoft.CSharp/4.6.0-preview.19073.11": {},
-      "Microsoft.NETCore.Platforms/3.0.0-preview.19073.11": {},
       "Newtonsoft.Json/12.0.1": {
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -363,6 +366,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "runtime.osx-x64.Microsoft.NETCore.DotNetAppHost/3.0.0-preview-27324-5": {},
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2024,6 +2028,42 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
+      },
+      "Microsoft.NETCore.App/3.0.0-preview-27324-5": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostPolicy": "3.0.0-preview-27324-5",
+          "Microsoft.NETCore.Platforms": "3.0.0-preview.19073.11",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "compileOnly": true
+      },
+      "Microsoft.NETCore.DotNetAppHost/3.0.0-preview-27324-5": {
+        "compileOnly": true
+      },
+      "Microsoft.NETCore.DotNetHostPolicy/3.0.0-preview-27324-5": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "3.0.0-preview-27324-5"
+        },
+        "compileOnly": true
+      },
+      "Microsoft.NETCore.DotNetHostResolver/3.0.0-preview-27324-5": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "3.0.0-preview-27324-5"
+        },
+        "compileOnly": true
+      },
+      "Microsoft.NETCore.Platforms/3.0.0-preview.19073.11": {
+        "compileOnly": true
+      },
+      "Microsoft.NETCore.Targets/2.0.0": {
+        "compileOnly": true
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0-preview.19073.11"
+        },
+        "compileOnly": true
       }
     }
   },
@@ -2032,6 +2072,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.App/3.0.0-preview-19075-0444": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tMfZWcMBjKeCv/ZcXCPpDc7+u1S7e3m1uMkLbOPH/uWTX2TUj4gkf0/82fkbiT3ezv6zC3pWxWFWJFYqAykxIg==",
+      "path": "microsoft.aspnetcore.app/3.0.0-preview-19075-0444",
+      "hashPath": "microsoft.aspnetcore.app.3.0.0-preview-19075-0444.nupkg.sha512"
     },
     "Microsoft.AspNetCore.JsonPatch/3.0.0-preview-19075-0444": {
       "type": "package",
@@ -2054,13 +2101,6 @@
       "path": "microsoft.csharp/4.6.0-preview.19073.11",
       "hashPath": "microsoft.csharp.4.6.0-preview.19073.11.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/3.0.0-preview.19073.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ATuXGL/RtODZrbOUcfyzstC6x2JkmjMUwo/WxbJCozH6GtvhUJHMrNIdfHw8jh4lrzNC3UjobBC9FDXgmMIr4g==",
-      "path": "microsoft.netcore.platforms/3.0.0-preview.19073.11",
-      "hashPath": "microsoft.netcore.platforms.3.0.0-preview.19073.11.nupkg.sha512"
-    },
     "Newtonsoft.Json/12.0.1": {
       "type": "package",
       "serviceable": true,
@@ -2074,6 +2114,13 @@
       "sha512": "sha512-M52Tfhn8KzsfmTKHl9/KjVHvA6zWxuYa46HZ3ldqlT4U3N/pEeHvwtyzYx+3/jVnLb4t62hB2zWNVwDGl0VHfg==",
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "runtime.osx-x64.Microsoft.NETCore.DotNetAppHost/3.0.0-preview-27324-5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HxRQWaK/k0ZUxAAQas4laPPaKjiGAybJetZmh82R4Fbq0xAQNqmoXxkGk2FtXM64UfjG92w0A/gsGJkQF/pf+w==",
+      "path": "runtime.osx-x64.microsoft.netcore.dotnetapphost/3.0.0-preview-27324-5",
+      "hashPath": "runtime.osx-x64.microsoft.netcore.dotnetapphost.3.0.0-preview-27324-5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
       "type": "referenceassembly",
@@ -3459,6 +3506,55 @@
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.NETCore.App/3.0.0-preview-27324-5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b41sGIUu84sDrxgMUp1MJsvpbq2dfFmJ/VhJiy6GaPMU+XIZRQlB7jJ36+BGr/LkmkZ/iQdd7zQz6bsNzovz/A==",
+      "path": "microsoft.netcore.app/3.0.0-preview-27324-5",
+      "hashPath": "microsoft.netcore.app.3.0.0-preview-27324-5.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetAppHost/3.0.0-preview-27324-5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4p/N2eD5grkUzIX7SqlFKSxStNBbubrSUxViU5CPto0bll0dchiRd4KDeTUsMXRNCpQ+dgsOlBsVuDArqNV7iA==",
+      "path": "microsoft.netcore.dotnetapphost/3.0.0-preview-27324-5",
+      "hashPath": "microsoft.netcore.dotnetapphost.3.0.0-preview-27324-5.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostPolicy/3.0.0-preview-27324-5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ilnuuld3A0gQ3/K5XcxRSCmBUbYZYyS2h3Sz+QCw9NC27VvPQjpJGiuABv/ftc1UWQGx7yaAiIWFC/t3ac2t9Q==",
+      "path": "microsoft.netcore.dotnethostpolicy/3.0.0-preview-27324-5",
+      "hashPath": "microsoft.netcore.dotnethostpolicy.3.0.0-preview-27324-5.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostResolver/3.0.0-preview-27324-5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X0vr5VuebmLCQPRL3jbZa0h2B9OhIW/yh39jwMTSOy3u54/Chse/LiAJjZF5L7R0DDXhy3mXb1PHYQiNokij1A==",
+      "path": "microsoft.netcore.dotnethostresolver/3.0.0-preview-27324-5",
+      "hashPath": "microsoft.netcore.dotnethostresolver.3.0.0-preview-27324-5.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0-preview.19073.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ATuXGL/RtODZrbOUcfyzstC6x2JkmjMUwo/WxbJCozH6GtvhUJHMrNIdfHw8jh4lrzNC3UjobBC9FDXgmMIr4g==",
+      "path": "microsoft.netcore.platforms/3.0.0-preview.19073.11",
+      "hashPath": "microsoft.netcore.platforms.3.0.0-preview.19073.11.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mJnCMoBfWL0lxxlBFJ/8cZKTfPpI82TekZkUqvSCBtunUaaqr2LVeWl1zQYdanAdk4Ddf1HCwb8+DNYaNFBk1w==",
+      "path": "microsoft.netcore.targets/2.0.0",
+      "hashPath": "microsoft.netcore.targets.2.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     }
   }
 }
